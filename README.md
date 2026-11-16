@@ -1,11 +1,13 @@
-# CSMain Expansion — 0.3.6.9-dev playtest build
+# CSMain Expansion — 0.3.6.10-dev playtest build
 
-[Download 0.3.6.9-dev JAR](https://github.com/tarhuno/CSMainExpansion/raw/refs/heads/main/builds/csmain-expansion-0.3.6.9-dev.jar)
+[Download 0.3.6.10-dev JAR](https://github.com/tarhuno/CSMainExpansion/raw/refs/heads/main/builds/csmain-expansion-0.3.6.10-dev.jar)
 
-[Изменения и подробный чек-лист (RU)](PLAYTEST_0.3.6.9_RU.md)
+[Duel, настройки режимов и чек-лист (RU)](PLAYTEST_0.3.6.10_RU.md)
 
-Addresses warmup armor cleanup, rejoin game modes, simultaneous last-player deaths, buy time during technical disconnect pauses, server shot/grenade blocking, decoy quota and Escort pig cleanup.
+Adds Duel to /csx gamemode, /csx duel weapon and /csx duel allowbuy. Duel has no C4 or planting sites; the configured gun is issued each round. Default: tacz:ai_awp, buying disabled.
 
-Java 17 clean build and eight standalone tests passed. Minecraft/LAN verification remains pending. Update server and all clients; buy_state protocol is now 3.
+Settings use per-world mode profiles. Unset Escort/Duel parameters inherit Bomb; explicit changes stay with their mode.
 
-[Catalog concurrency fix (0.3.6.8)](PLAYTEST_0.3.6.8_RU.md) · [Weapons, skins and dependencies (0.3.6.7)](PLAYTEST_0.3.6.7_RU.md)
+Java 17 clean build and nine standalone tests passed. Minecraft/LAN verification remains pending. Update server and all clients; radar protocol is now 3.
+
+[Previous lifecycle fixes (0.3.6.9)](PLAYTEST_0.3.6.9_RU.md) · [Weapons and dependencies (0.3.6.7)](PLAYTEST_0.3.6.7_RU.md)
